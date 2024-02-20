@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#me{
+	width: 500px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: ;
+	
+}
+#start{
+	position: absolute;
+	font-size: 25px;
+	top: 170px;
+}
+#please{
+	position: absolute;
+	font-size: 25px;
+	top: 200px;
+}
+#check1{
+	position: absolute;
+	font-size: 16px;
+	top: 270px;
+}
+#check2{
+	position: absolute;
+	font-size: 16px;
+	top: 310px;
+}
+#check3{
+	position: absolute;
+	font-size: 16px;
+	top: 350px;
+}
+#all{
+	position: relative;
+	font-size: 16px;
+	top: 270px;
+	width: 500px;
+	height: 60px;
+	margin: auto;
+	border-width: 0.01px;
+	background-color:transparent;
+	display: inline-block;
+	
+}
+#next{
+	position: relative;
+	font-size: 16px;
+	top: 280px;
+	width: 500px;
+	height: 60px;
+	margin: auto;
+	border-width: 0.01px;
+	background-color:transparent;
+	display: inline-block;
+}

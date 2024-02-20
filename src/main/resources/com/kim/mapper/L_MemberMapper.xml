@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.kim.mapper.L_MemberMapper">
+	<insert id="memberAdd">
+ 		insert into member 
+ 		values(#{id},#{pw},#{name},#{phone},#{pphone},#{birth},#{gender},#{email});
+ 	</insert>
+
+	<select id="selectId" resultType="boolean">
+		SELECT COUNT(*)
+		  FROM MEMBER
+		 WHERE ID = #{id}
+	</select>
+
+	<select id="naverCheck" resultType="com.kim.model.NaverVo">
+		select *
+		from naverlogin
+		where n_id= #{n_id}
+	</select>
+	
+	<insert id="naverAdd" >
+		insert into naverlogin 
+ 		values(#{n_id},#{n_birthday},#{n_gender},
+ 		#{n_name},#{n_nickName},#{n_mobile},#{n_birthyear},
+ 		#{n_email},#{email});
+	</insert>
+	
+	<select id="kakaoCheck" resultType="com.kim.model.KakaoDTO">
+		select *
+		from kakaologin
+		where k_id= #{k_id}
+	</select>
+	
+	<insert id="kakaoAdd" >
+		insert into kakaologin 
+ 		values(#{k_id},#{k_nickname},#{email});
+	</insert>
+	
+	<select id="detail" resultType="com.kim.model.MemberDTO">
+ 		select *
+ 		from member
+ 		where id= #{id};
+ 	</select>
+	
+	<update id="modify">
+ 		update member
+ 		set pw = #{pw},
+ 			name = #{name},
+ 			phone = #{phone},
+ 			pphone = #{pphone}
+ 		where id = #{id} 
+ 	</update>
+ 	
+ 	<delete id="remove">
+ 		delete from member
+ 		where id=#{id}
+ 	</delete>
+ 	
+</mapper>

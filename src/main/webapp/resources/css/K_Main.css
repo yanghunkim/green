@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+#loginCheck{
+	position:absolute;
+	top:60px;
+	z-index:1;
+	right:10px;
+	
+}
+
+input[type="submit"]{
+	position:relative;
+	right:50px;
+	width: 100px;
+    height: 40px;
+    background: #009999;
+    color: #FEFEFE;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+    
+}
+
+h3{
+	position:relative;
+	right:20px;
+	top:10px;	
+}
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	list-style: none;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color:#fff;
+}
+
+html, body {
+	height: 100%;
+	position: relative;
+	z-index: -9999;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Sunflower', sans-serif;
+	color: #009999;
+}
+
+h4 {
+	font-size: 19px;
+	color: #009999;
+	padding: 5px 0 15px 0;
+}
+
+#ktitle {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	background-color: white;
+	opacity: 0.97;
+}
+
+#nav {
+	width: 100%;
+	font-size: 25px;
+	display: inline-block;
+	background-color: white;
+	opacity: 0.97;
+/* 	box-shadow: 0px 0px 0.5px 0.5px ;
+	box-shadow: #009999; */
+}
+
+#nav ul {
+	text-align: center;
+}
+
+#nav ul li {
+	display: inline-block;
+	padding: 20px 30px 20px 30px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-pagination  {
+	--swiper-theme-color: #009999
+}
+.swiper-pagination-bullet {
+	transform: scale(1.5);
+}
+
+#layout {
+	width: 40%;
+	height: 50%;
+	position: absolute;
+	top:35%;
+	right:0;
+}
+#layout div:nth-child(2) ul li {
+	background-color: rgba(0, 153, 158, 0.8);
+}
+.container {
+	height: calc(100% / 3);
+}
+.container ul {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.container ul li {
+	width: calc(100% / 3);
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+.container ul li:first-child {
+	color:#fff;
+}
+.container ul li:nth-child(2){
+	background-color: rgba(0, 153, 158, 0.8);
+}
+
+.container ul li:last-child {
+	color:#fff;
+}
+
+.container ul:nth-child(1) li:not(:nth-child(2)){
+	background-color: rgba(255, 250, 250, 0.8);
+}
+	/* rgba(10, 151, 140, 0.8); 
+}
+
+/* container1,3번 ul
+
+li 첫번째와 3번째 선택하기 */
+

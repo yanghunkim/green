@@ -1,0 +1,233 @@
+@charset "UTF-8";
+* {
+	margin:0 auto;
+	padding:0;
+	text-align: center;
+	font-family:'Noto Sans KR';
+}
+
+body {
+	background:#fffafa;
+}
+
+a {
+	text-decoration: none;
+	color: #fffafa;
+}
+
+.contaninerbox01 h2 {
+	color: #fffafa;
+    font-size: 30px;
+    padding-top: 5%;
+    margin-bottom: 10px;
+}
+
+.contaninerbox01 h3 {
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 19px;
+    margin: 10px;
+}
+
+#contaniner p {
+	font-size: 20px;
+}
+
+label {
+	margin:0;
+}
+
+#contaniner {
+	width: 1000px;
+    height: 737px;
+    background: #009999;
+    color:#fffafa;
+}
+
+.contaninerbox01 {
+	min-width: 1000px;
+}
+
+#check{
+	width: 74px;
+    height: 61px;
+    color: #009999;
+    background: #fffafa;
+    position: absolute;
+    top: 4%;
+    left: 104%;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+#checkBtn01, #checkBtn02 {
+	width: 150px;
+    height: 50px;
+    display: inline-block;
+    background: #FEFEFE;
+    color: #009999;
+    margin: 15px 15px 15px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+.radio01, .radio02 {
+	position: relative;
+    top: 25%;
+}
+
+#divRadio01, #divRadio02  {
+	width:405px;
+	height: 105px;
+}
+
+
+.tableForm01, .tableForm02 {
+	font-size: 18px;
+    position: relative;
+    left: -15%;
+}
+
+.tableForm01 p {
+    margin-left: 97px;
+}
+
+.button-text {
+	width: 300px;
+	height: 27px;
+}
+
+#name, #phone, #email{
+	width: 300px;
+    height: 30px;
+    border: 0;
+    margin-bottom:10px;
+    color: black;
+    text-indent: 10px;
+}
+.btns-wrap {
+	background:#009999;
+}
+.btns-wrap a {
+	background-color: initial;
+    position: relative;
+    left: 9px;
+}
+.tableForm01 label, .tableForm02 label{
+	display:inline-block;
+	padding-right: 5px;
+}
+.tableForm01 .star, .tableForm02 .star{
+	display:inline-block;
+	padding-right: 5px;
+}
+
+.btns-wrap .notBtn {
+    width: 74px;
+    height: 30px;
+    color: #009999;
+    background: #fffafa;
+    position: absolute;
+    top: 52%;
+    left: 104%;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+.btns-wrap .yesBtn {
+	width: 74px;
+    height: 32px;
+    color: #009999;
+    background: #fffafa;
+    position: absolute;
+    top: 3%;
+    left: 104%;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+.other {
+	padding-top: 13%;
+    padding-bottom: 1%;
+    font-size: 22px;
+    font-weight: 700;
+}
+.other a {
+	color: #fffafa;
+}
+.other a:nth-child(2) {
+	border-left: 2px solid rgba(255, 255, 255, 1);
+    padding-left: 6px;
+}
+
+.join-link {
+	margin: 10px;
+}
+
+.join-link a span {
+	display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.join-link a {
+	color:#fffafa;
+}
+.join-link p {
+	width: 600px;
+    font-size: 19px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.telBox {
+	padding-top: 20px;
+	color: #fffafa;
+}
+#snsbox {
+	display:inline-block;
+}
+
+#snsbox span {
+	font-size: 30px;
+	font-weight: 700;
+}
+#S-sns, #K-sns, #L-sns {
+	margin-bottom:5px;
+}
+/* 버튼형 sns css 스타일
+.telBox {
+	padding-top: 30px;
+}
+.telBox div{
+	display: inline-block;
+	margin: 10px;
+	width: 60px;
+    height: 50px;
+}
+ #S-sns img{
+	width: 60px;
+    height: 50px;
+}
+
+#L-sns img {
+	width: 60px;
+    height: 50px;
+}
+
+#K-sns img {
+	width: 60px;
+    height: 50px;
+	border-radius: 3px;
+}
+
+#snsbox {
+	color:#F0FEFE;
+	padding-top: 10px;
+} */

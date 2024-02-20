@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* 하이요 */
+* {
+	margin: 0 auto;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	list-style: none;
+	text-align: center;
+	font-family:'Noto Sans KR';
+}
+
+body {
+	background:#fffafa;
+}
+
+#contents h2 {
+	color: #fffafa;
+    font-size: 30px;
+    padding-top:3%;
+    margin-bottom: 5px;
+}
+
+#contents h3 {
+	color:#fffafa;
+	font-size:18px;
+}
+
+#contents a {
+	text-decoration: none;
+	color: #fffafa;
+	background:#009999;
+}
+
+#contents p {
+	font-size: 20px;
+	margin-bottom: 4px;
+}
+
+label {
+	margin:0;
+}
+
+#contents {
+	width: 1000px;
+}
+
+#container{
+	color:#fffafa;
+	background:#009999;
+	height: 737px
+}
+
+table{
+	padding: 30px 30px 10px;
+    height: 300px;
+}
+
+th{
+	width: 110px;
+    text-align: left;
+}
+
+.inputNormal{
+	width: 400px;
+    height: 35px;
+    border: 0;
+    color: black;
+    text-indent: 10px;
+    text-align: left;
+}
+
+#checkLabel, #sendLabel{
+	position:relative;
+}
+
+#emailSend, #okay{
+	border-radius: 3px;
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 290px;
+    text-align: center;
+    margin-top: 5px;
+    border: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+input{
+	position: relative;
+}
+
+#openPw{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    right: 19px;
+    color: #009999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+tr:nth-child(4) td > input {
+	left: 63px;
+}
+
+tr:nth-child(4) td span {
+	display: inline-block;
+    width: 100px;
+    height: 25px;
+    color: buttontext;
+	border-radius: 3px;
+    font-size: 13.5px;
+    background: buttonface;
+    padding-top:1px;
+    position: relative;
+	top: -1.5px;
+    right: 16px;
+}
+
+#viewPw{
+	position: relative;
+    right: 52px;
+    font-size: small;
+}
+
+#next{
+	width: 70px;
+    height: 37px;
+    color: #009999;
+    background: #fffafa;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+#btn_ID {
+	position: absolute;
+    top: 56.5%;
+    right: 31%;
+    width: 150px;
+    height: 45px;
+}
+
+#checkBtn01, #checkBtn02 {
+	width: 10%;
+	display: inline-block;
+	margin: 0;
+}
+
+#containerloginbox {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+
+.notBtn {
+	margin-right: 10px;
+}
+#containerloginbox a:nth-child(2) span {
+	border-left: 2px solid rgba( 255, 255, 255, 0.9);
+	padding-left: 15px;
+}
+
+.join-link {
+	margin-bottom: 2px;
+}
+
+.join-link a span {
+	display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 7px;
+}
+
+.join-link p {
+	width: 600px;
+    font-size: 19px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+#snsbox {
+	margin-top:5px;
+}
+#snsbox span {
+	font-size: 30px;
+	font-weight: 700;
+}

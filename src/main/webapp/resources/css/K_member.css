@@ -1,0 +1,713 @@
+@charset "UTF-8"; 
+
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	list-style: none;
+	text-align: center;
+	font-family: 'Noto Sans KR';
+}
+
+body {
+	background: #fffafa;
+	color: #fffafa;
+}
+
+/*                                   여기서 부터는 회원가입 css 입니다.                                      */
+#next {
+	position: absolute;
+	top: 66%;
+	left: 45.5%;
+	margin-top: 20px;
+	width: 110px;
+	height: 41px;
+	border-radius: 10px;
+	background: #fffafa;
+	color: #009999;
+	font-size: 20px;
+}
+
+#sectioncontainer01 {
+	position: relative;
+    padding-bottom: 4%;
+    margin-top: 3%;
+}
+
+#sectioncontainer01.on {
+	position: relative;
+	display: none;
+	left: -100%;
+}
+
+#sectioncontainer01 h2 {
+	padding: 25px 0px 15px;
+    color: #fffafa;
+    font-size: 33px;
+}
+
+#sectioncontainer01 h3 {
+	position: relative;
+	left: -18%;
+	color: #fffafa;
+	font-size: 20px;
+}
+
+#sectioncontainer01 a {
+	text-decoration: none;
+	color: #fffafa;
+}
+
+#sectioncontainer01 p {
+	font-size: 20px;
+	width: 371px;
+}
+
+#sectioncontainer01 label {
+	margin: 0;
+}
+
+.containerbox {
+	width: 800px;
+	height: 600px;
+	background: #009999;
+}
+
+
+#contaninerCheckbox01 {
+	width: 500px;
+	height: 470px;
+	text-align: left;
+}
+
+#contanierClickbtnbox01 h4 {
+	color: #fffafa;
+	position: relative;
+	left: 2%;
+	bottom: -5%;
+	font-size: 22px;
+	padding-top: 5px;
+}
+
+#contanierClickbtnbox01, #contanierClickbtnbox01 h4 {
+	display: inline-block;
+    height: 40px;
+}
+
+#all {
+	position: relative;
+    margin-top: 9px;
+    top: 5%;
+    width: 20px;
+    height: 20px;
+    border-radius: 44%;
+    border-width: 0.5px;
+    background-color: #fffafa;
+}
+
+#checkboxscroll {
+	margin: 0;
+	width: 450px;
+	height: 365px;
+	padding-top: 10px;
+	text-align: left;
+}
+
+#checkboxscroll label {
+	position: relative;
+	left: 25px;
+	display: inline-block;
+	text-align: left;
+	margin: 10px 0px 10px 0px;
+	display: inline-block;
+	width: 410px;
+	height: 70px;
+	font-size: 13px;
+	overflow: overlay;
+	border: 2px solid rgba(255, 255, 255, 1);
+	background-color: #ffffff;
+	color: #767678;
+}
+
+#contaninerCheckbox01 span {
+	width: 430px;
+	text-align: left;
+	font-size: 19px;
+	display: inline-block;
+	color: #fffafa;
+}
+
+#contaninerCheckbox01 span input {
+	width: 19px;
+	height: 19px;
+	margin-top: 3px;
+}
+
+/*                                   여기서 부터는 email css 입니다.                                      */
+#sectioncontainer02 {
+	position: relative;
+	display: none;
+	right: -100%;
+}
+
+#sectioncontainer02.on {
+	position: relative;
+	display: block;
+	right: 0%;
+}
+#email_auth_btn {
+	position: relative;
+    left: 1.7%;
+    width: 90px;
+    height: 40px;
+}
+
+#sectioncontainer02 h2 {
+	padding: 15px;
+	font-size: 33px;
+}
+
+#sectioncontainer02 h3 {
+	font-size: 20px;
+}
+
+#contanierClickbtnbox02 h4 {
+	display: inline-block;
+    color: #fff;
+    padding-right: 6px;
+    font-size: 22px;
+}
+
+#contanierClickbtnbox02 h4:nth-child(2) {
+	position: relative;
+    left: -10.1%;
+    width: 150PX;
+    height: 40px;
+}
+
+#start02 {
+	padding-top: 14%;
+}
+
+#please02 {
+	padding-bottom: 30px;
+}
+
+#next01 {
+	display: inline-block;
+    width: 100px;
+    margin-top: 30px;
+    height: 50px;
+    background: #fffafa;
+    color: #009999;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+#bluecircle{
+	background-color: #0075FF;
+    border-radius: 100%;
+    position: relative;
+    right: 86.3%;
+    margin-bottom: 1px;
+    z-index: -1;
+    position: relative;
+    margin-left: -7px;
+}
+#bluecircle.on {
+	z-index: 1
+}
+#next02 {
+    position: relative;
+    left: -18%;
+    top: 90px;
+    width: 90px;
+    height: 40px;
+	background: #fffafa;
+    color: #009999;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+
+#sectioncontainer02 button {
+	width: 90px;
+    height: 42px;;
+	background: #FEFEFE;
+	color: #009999;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0;
+}
+
+#sectioncontainer02 input {
+	display: inline-block;
+	text-align: left;
+	text-indent: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0;
+	background: #FEFEFE;
+	color: #009999;
+	margin-right: 5px;
+}
+
+#sectioncontainer02 #next {
+	position: absolute;
+	top: 45%;
+	left: 62%;
+	font-size: 25px;
+	text-align: center;
+	text-indent: 0;
+}
+
+
+#sectioncontainer02 #check {
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	text-indent: 0;
+	position: relative;
+    left: 16.5%;
+}
+
+#sectioncontainer02 div:nth-child(2) {
+	text-align: center;
+}
+
+#sectioncontainer02 #email {
+	width: 350px;
+	height: 40px;
+}
+#lbEmail {
+	display: block;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: -10%;
+    padding-bottom: 10px;
+}
+
+#sectioncontainer02 #email_auth_key {
+	position: relative;
+    left: -10.0%;
+    width: 150PX;
+    height: 40px;
+}
+
+/*                                     여기서부터는 아이디 css 만들기 입니다.                                  */
+#sectioncontainer03 {
+	position: relative;
+	display: none;
+	right: -100%;
+}
+
+#sectioncontainer03.on {
+	position: relative;
+	display: block;
+	right: 0%;
+}
+
+#sectioncontainer03 #ti {
+	padding-top: 14%;
+}
+
+#sectioncontainer03 #ti>h2 {
+	padding: 15px;
+	font-size: 33px;
+}
+
+#sectioncontainer03 #please03 {
+	font-size: 20px;
+	padding: 20px 0px 30px 0px
+}
+
+#contanierClickbtnbox03 div {
+	display: inline-block;
+}
+
+#contanierClickbtnbox03>div {
+	display: inline-block;
+	width: 650px;
+	height: 326px;
+}
+
+#sectioncontainer03 #i {
+    width: 80px;
+    height: 40px;
+    font-size: 23px;
+    font-weight: 700;
+    padding-right: 7px;
+}
+
+#sectioncontainer03 #id {
+	width: 300px;
+	height: 40px;
+	display: inline-block;
+	text-align: left;
+	text-indent: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0;
+	background: #FEFEFE;
+	position: relative;
+	bottom: 1%;
+}
+
+#sectioncontainer03 #lbId {
+	display: block;
+    margin-top: 6px;
+    font-size: 18px;
+}
+
+#sectioncontainer03 #checkId {
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	text-indent: 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #fffafa;
+	color: #009999;
+	position: relative;
+	left: 3%;
+	bottom: 1%;
+}
+
+#contanierClickbtnbox03 #next03 {
+	position: relative;
+    left: -38%;
+    top: 90px;
+    width: 90px;
+    height: 40px;
+	background: #fffafa;
+    color: #009999;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
+#contanierClickbtnbox03 #next {
+	position: relative;
+	top: 25%;
+	left: -44%;
+	border: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+/*										여기서부터는 비밀번호 입력 css 입니다.                                   */
+#sectioncontainer04 {
+	position: relative;
+	display: none;
+	right: -100%;
+}
+
+#sectioncontainer04.on {
+	position: relative;
+    display: block;
+    right: -28%;
+}
+
+#sectioncontainer04 #me {
+	width: 800px;
+	height: 600px;
+	background: #009999;
+}
+
+#sectioncontainer04 #ti {
+	padding-top: 14%;
+}
+
+#sectioncontainer04 #ti h3 {
+	font-size: 20px;
+	padding: 20px 0px 30px 0px
+}
+
+#sectioncontainer04 #me div:not (:nth-child(1)) {
+	display: inline-block;
+}
+
+#sectioncontainer04 #p {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+}
+
+#sectioncontainer04 #p h4 {
+	display: inline-block;
+	color: #fffafa;
+	position: relative;
+	left: -2%;
+	bottom: -5%;
+	font-size: 22px;
+	padding-top: 5px;
+}
+
+#sectioncontainer04 #pw {
+	display: inline-block;
+	text-align: left;
+	text-indent: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #FEFEFE;
+}
+
+#sectioncontainer04 #pws input:nth-child(2) {
+	width: 300px;
+    height: 40px;
+    margin: 0px 0px 0px 10px;
+}
+
+#sectioncontainer04 #kp h4 {
+	display: inline-block;
+    color: #fffafa;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-left: -38px;
+}
+
+#sectioncontainer04 #change {
+	width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
+    top: 6px;
+}
+#sectioncontainer04 #pwc {
+	width: 300px;
+    height: 40px;
+    display: inline-block;
+    text-align: left;
+    text-indent: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FEFEFE;
+}
+#sectioncontainer04, .changebox {
+	width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 10px;
+    position: relative;
+    top: 6px;
+}
+
+#next04 {
+	background: #fffafa;
+    color: #009999;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+#sectioncontainer05 {
+	position: relative;
+	display: none;
+	right: -100%;
+}
+
+#sectioncontainer05.on {
+	position: relative;
+	display: block;
+	right: 0%;
+}
+
+#contanierClickbtnbox05 {
+	width: 800px;
+	height: 326px;
+	background: #009999;
+}
+
+#sectioncontainer05 div {
+	padding: 15px 0px 0px 0px;
+}
+
+#sectioncontainer05 label {
+	
+}
+
+#sectioncontainer05 #start03 h2 {
+	padding-top: 14%;
+}
+
+#sectioncontainer05 #start03 h3 {
+	font-size: 20px;
+	padding: 20px 0px 30px 0px
+}
+
+.phonetext01 h4 {
+	display: inline-block;
+	color: #fffafa;
+	position: relative;
+	left: -2%;
+	font-size: 22px;
+}
+
+.phonetext02 h4 {
+	display: inline-block;
+	color: #fffafa;
+	position: relative;
+	left: -4%;
+	bottom: -5%;
+	font-size: 22px;
+}
+
+#sectioncontainer05 #phone {
+	width: 300px;
+	height: 40px;
+	display: inline-block;
+	text-align: left;
+	text-indent: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0;
+	background: #FEFEFE;
+	position: relative;
+	left: 1%;
+}
+
+#sectioncontainer05 #pphone {
+	width: 300px;
+	height: 40px;
+	display: inline-block;
+	text-align: left;
+	text-indent: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0;
+	background: #FEFEFE;
+	position: relative;
+	left: -1.5%;
+}
+
+#sectioncontainer05 #next05 {
+	background: #fffafa;
+    color: #009999;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+#sectioncontainer06 {
+	position: relative;
+	display: none;
+	right: -100%;
+}
+
+#sectioncontainer06.on {
+	position: relative;
+	display: block;
+	right: 0%;
+}
+
+#contanierClickbtnbox06 {
+    width: 800px;
+	background: #009999;
+}
+
+#contanierClickbtnbox06 h3 {
+	padding-top: 14%;
+}
+#contanierClickbtnbox06 select {
+	display: inline-block;
+	height: 30px;
+	text-align: left;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: #FEFEFE;
+	margin-right: 5px;
+	
+}
+
+#contanierClickbtnbox06 select option {
+	color:fieldtext;
+}
+
+#contanierClickbtnbox06 #name {
+	display: inline-block;
+    text-align: left;
+    text-indent: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FEFEFE;
+    width: 175px;
+    height: 30px;
+}
+
+#section06-box h4 {
+	display: inline-block;
+	padding-right: 10px;
+	color: #fffafa;
+	position: relative;
+	font-size: 22px;
+	margin: 0;
+}
+#contanierClickbtnbox06 #final {
+	background: #fffafa;
+	display:block;
+    color: #009999;
+    font-family: 'Noto Sans KR';
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+}
+.h4box01 {
+	padding-top: 35px;
+}
+
+.h4box02 {
+    left: -7.3%;
+}
+
+.h4box03 {
+	padding-top: 25px;
+}
+
+#contanierClickbtnbox06 .box {
+	position: relative;
+	left: -12%;
+}
+
+#contanierClickbtnbox06 h4::nth-child(3) {
+	padding-top: 25px;
+}
+
+#contanierClickbtnbox06 div {
+	display: inline-block;
+}
+
+#section06-box {
+	display: inline-block;
+	height: 326px;
+}
+
+#info__birth box {
+	display: inline-block;
+}
+
+
