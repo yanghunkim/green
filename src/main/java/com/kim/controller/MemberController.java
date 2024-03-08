@@ -214,7 +214,7 @@ public class MemberController {
 		int checkNum = random.nextInt(888888) + 111111;
 
 		/* 이메일 보내기 */
-        String setFrom = "never2346@naver.com";
+        String setFrom = "sjrnfl134@naver.com";
         String toMail = email;
         String title = "회원가입 인증 이메일 입니다.";
         String content = 
