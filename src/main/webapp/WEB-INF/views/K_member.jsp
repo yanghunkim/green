@@ -140,7 +140,7 @@ $('#next05').on("click",function(){
 				<input type="text"
 					placeholder="이메일형식으로 입력해주세요(ex: hong1234@gmail.com)" 
 					name="email" id="email" class="email">
-					<button type="button" id="email_auth_btn" class="email_auth_btn">인증번호	받기</button>
+					<button type="button" id="email_auth_btn" class="email_auth_btn">인증번호 받기</button>
 				<label id="lbEmail"></label>
 			</div>
 			<div>

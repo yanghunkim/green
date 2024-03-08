@@ -1,28 +1,25 @@
-
-
 $(document).ready(function() { 
  	
  	var email_auth_cd = '';
  
-	$('#check').click(function(){
+	$('#K_check').click(function(){
 		
-		if($('#email_auth_key').val() != email_auth_cd){
+		if($('#K_email_auth_key').val() != email_auth_cd){
 			message = "인증번호가 일치하지 않습니다.";
-    		$("#lbEmail").html(message).css("color", "rgba(255, 250, 145, 1)");
-            $("#email").trigger("focus");
-            next02.disabled = true;
+    		$("#K_Lbemail").html(message).css("color", "rgba(255, 250, 145, 1)");
+            $("#K_email").trigger("focus");
+            K_next.disabled = true;
 			return false;
 		}else{
 			message = "이메일 인증이 완료되었습니다."
-			$("#lbEmail").html(message).css("color","#fff", "position","relative", "top","90px", "left","-44%");
-	        $("#next02").trigger("focus");
-	        next02.disabled = false;
+			$("#K_Lbemail").html(message).css("color","#fffafa", "position","relative", "top","90px", "left","-44%");
+	        $(".K_next").trigger("focus");
+	        K_next.disabled = false;
 		}
-		
 	});
 	
-	$(".email_auth_btn").click(function(){	     	 
-    	 var email = $('#email').val();
+	$("#K_email_auth_btn").click(function(){	     	 
+    	 var email = $('#K_email').val();
     	 
     	 if(email == ''){
     	 	alert("이메일을 입력해주세요.");
@@ -40,11 +37,9 @@ $(document).ready(function() {
 			error: function(data){
 				alert("메일 발송에 실패했습니다.");
 			}
-		}); 
-	});
+ 		}); 
+ 	});
 
- });
-
-
+  });
 
 

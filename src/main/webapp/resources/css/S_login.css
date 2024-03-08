@@ -99,7 +99,7 @@ p {
 	border-left: 2px solid rgba(240, 254, 254, 1);
 }
 
-#id, #pw, #kid, #kemail {
+#id, #pw, #K_name, #K_email {
     width: 300px;
     height: 40px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -126,14 +126,26 @@ p {
 }
 
 /* 여기서부터는 비회원 로그인 css style 입니다. ^O^  */
-#kemail {
+#K_email {
 	display: inline-block;	
 }
 
-#kid, #kemail {
+#K_name, #K_email {
 	margin: 10px 15px 5px 15px;
 }
-
+#K_email_auth_btn {
+	width: 56px;
+    height: 31px;
+    position: relative;
+    top: 3px;
+    color: #009999;
+    background: #fffafa;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+}
 #kcontainer01 {
 	margin-top: 28px;
 }
@@ -145,33 +157,27 @@ p {
     align-items: center;
 }
 
-#kcontainer02 input{
+#kcontainer02 input:nth-child(1){
 	width: 215px;
     height: 23px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 0;
     text-indent: 10px;
+    position: relative;
+    left: 25%;
 }
 
-#kcontainer02 button {
-	width: 56px;
-    height: 26px;
-    margin: 0;
-    margin-left: 20px;
+#K_check {
+	width: 50px;
+    height: 30px;
+    position: relative;
     color: #009999;
+    text-align:center;
     background: #fffafa;
     font-weight: 700;
     font-size: 18px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
-}
-    
-
-
-#kcontainer02 span {
-	width: 50px;
-	height: 35px;
-    margin: 0;
 }
 
 #kcontainer03 {

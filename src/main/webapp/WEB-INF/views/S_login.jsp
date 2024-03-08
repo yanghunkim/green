@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,8 +10,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="/resources/js/K_email.js"></script>
 <script>
-https://accounts.google.com/o/oauth2/v2/auth
+	https://accounts.google.com/o/oauth2/v2/auth
 </script>
 
 <body>
@@ -76,23 +78,21 @@ https://accounts.google.com/o/oauth2/v2/auth
 			<p>
 				꿈을그린병원에 오신 것을 환영합니다.<br>이메일 인증으로 예약 서비스를 이용하실 수 있습니다.
 			</p>
-			<form>
+			<form action="member12" method="post">
 				<div id="kname">
 					<div id="kcontainer01">
-						<label> 
-						<input id="kid" name="" value="" type="text" placeholder="이름"> 
-						<input id="kemail" name="" value="" type="email" placeholder="이메일">
-						</label>
+							<input id="K_name" type="text" placeholder="이름"> 
+							<input id="K_email" type="text" placeholder="이메일" style="margin-left:72px;">
+							<button id="K_email_auth_btn" type="button">발신 </button>
 					</div>
 					<div id="kcontainer02">
-						<label>
-							<input value="" type="text" placeholder="승인번호">
-						</label>
-						<button>승 인</button>
+							<input id="K_email_auth_key" type="text" placeholder="승인번호" >
+							<button id="K_check" class="K_next" type="button" disabled="disabled">인증</button>
 					</div>
+							<label id="K_Lbemail" style="display:inline-block;"></label>
 					<div id="kcontainer03">
 						<label style="position: absolute;"> 
-							<input type="checkbox" placeholder="승인번호">
+							<input type="checkbox">
 						</label>
 						<label style="position: relative; margin: 2px; left:12%;">
 							환자 및 법적대리인만 서비스 이용이<br>가능하며 개인정보 이용에 동의합니다.
@@ -111,6 +111,7 @@ https://accounts.google.com/o/oauth2/v2/auth
 		</div>
 	</div>
 </div>
+
 <script>
   function loginWithKakao() {
     Kakao.Auth.authorize({
